@@ -14,8 +14,8 @@
  - creates a Dev Build
  - creates a Loacl Server
  - hosts the app to the Local Server
- - HMR = *Hot Module Replacement* - on save it automatically refreshing our development page in browser
- - parcel use a *File Watching Alogorithm(FWA)* which is written in *C++*
+ - HMR = **Hot Module Replacement** - on save it automatically refreshing our development page in browser
+ - parcel use a *File Watching Alogorithm(FWA)* which is written in **C++**
  - Caching - gives Faster builds because its caching - file(.parcel-cache)
  - it will do *Image Optimization*
  - If we do production build it will do *Minification*
@@ -29,9 +29,11 @@
  - Differnet builds for Dev and Production
 
 
- # React
+ # React and Babel(Javascript compiler)
   - JSX is not html, it is a HTML like syntax
   - JSX and React both are different. 
-  - JSX is not understood by react, javascript. JSX is transpiled by parcel before it reaches to the browser. Browser has JS engine 
-    which will understand only ECMA script (i.e) pure Javascript.
-    Babel inside parcel is the one while converts the JSX code to something which React will understand
+  - JSX is not understood by react, javascript. JSX is transpiled by parcel before it reaches to the browser. 
+    Browser has JS engine which will understand only ECMA script (i.e) pure Javascript.
+    Babel inside parcel is the one while converts the JSX code to something which React will understand.
+    Babel not only transpiles JSX to React.createElement, It also convers the ES6 JS code to 
+    old browsers understnadable code.
