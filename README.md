@@ -31,4 +31,4 @@
 # React and Babel(Javascript compiler)
 ## JSX is not html, it is a HTML like syntax
 ## JSX and React both are different. 
-## JSX is not understood by react, javascript. JSX is transpiled by parcel before it reaches to the browser. Browser has JS engine which will understand only ECMA script (i.e) pure Javascript. Babel inside parcel is the one while converts the JSX code to something which React will understand. Babel not only transpiles JSX to React.createElement, It also convers the ES6 JS code to old browsers understnadable code.
+## JSX is not understood by react, javascript.<br> JSX is transpiled by parcel before it reaches to the browser<br> Browser has JS engine which will understand only ECMA script (i.e) pure Javascript<br> Babel inside parcel is the one while converts the JSX code to something which React will understand<br> Babel not only transpiles JSX to React<br>createElement, It also convers the ES6 JS code to old browsers understnadable code.
