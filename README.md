@@ -32,3 +32,38 @@
 ### JSX is not html, it is a HTML like syntax
 ### JSX and React both are different. 
 ### JSX is not understood by react, javascript.<br> JSX is transpiled by parcel before it reaches to the browser.<br> Browser has JS engine which will understand only ECMA script (i.e) pure Javascript.<br> Babel inside parcel is the one while converts the JSX code to something which React will understand.<br> Babel not only transpiles JSX to React.createElement, It also converts the ES6 JS code to old browsers understandable code.
+
+
+
+# Food App structure
+/**
+ * Header
+ *  - Logo
+ *  - Menu Items
+ * Body
+ *  - Search
+ *  - Restaurant conatiner
+ *     - Img
+ *     - Name of Res, Start Rating, Cuisines.
+ *     -
+ * Footer
+ *  - Copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+ */
+
+
+# React HOOKS
+### These are normal JS utility functions
+### Hooks are utility function which are given to us by React.
+
+# Why react is FAST?
+## Because react does efficient dom manipulation because it has VIRTUAL DOM
+
+# Reconciliation Algorithm (React Fibre) -> (In react16 this has been introduced. New way of finding the diff and update the DOM)
+### Here two things comes into picture VIRTUAL DOM and DIFF ALGORITHM
+### Virtual DOM is a representaion of actual DOM (It is an object)
+### EG: button click the state changes and filtered 10 elements to 5 elements
+### Diff Algorithm - Diff algorithm finds the difference between old virtual DOM(10 elements) and the new virtual DOM(5 elements) when state updated and it updates the DOM to 5 elements. Basically comparing two objects and updating
+

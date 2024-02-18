@@ -1,0 +1,165 @@
+html,
+body,
+div,
+p,
+h1 h2,
+h3 {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.app {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  height: 100px;
+  background-color: #fff;
+  position: fixed;
+  padding: 10px;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.logo-container > img {
+  width: 200px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.nav-items {
+  width: 40%;
+}
+
+.nav-items > ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  padding: 0px 20px;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #868e96;
+  text-transform: uppercase;
+}
+
+.nav-items > ul > li:hover {
+  background-color: #adb5bd;
+  color: #fff;
+}
+
+.filter-container {
+ margin-bottom: 30px;
+}
+
+.filter-btn {
+  padding: 15px 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #adb5bd;
+}
+
+.body {
+  padding-top: 120px;
+
+}
+
+.body-container {
+  width: 70%;
+  padding: 30px;
+  margin: auto;
+
+}
+
+.res-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: fit-content;
+  gap: 10;
+}
+
+.res-card {
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+
+.res-card-img-contaier {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(0.95, 0.95);
+  transform-origin: center center;
+}
+
+.offer-container {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  align-items: end;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  color: #fff;
+  background: linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 84.21%);
+}
+
+.offer-container > p {
+  font-size: large;
+  font-weight: 700;
+}
+
+.res-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10;
+  padding: 5px;
+}
+
+.res-card-img-contaier > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 2;
+}
+
+.cuisine-desc {
+  color: #868e96;
+  font-weight: 100;
+}
